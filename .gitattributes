@@ -1,5 +1,12 @@
-texto = input(">")
+while (True):
+    texto = input(">")
+    if texto == "Salir":
+        break
 
-texto = texto.replace(":)", "😊")
-
-print(texto)
+    texto = texto.replace(":)", "😊")
+    texto = texto.replace(":(", "☹️​")
+    texto = texto.replace(":p", "😊")
+    texto = texto.replace(":P", "😋​")
+    texto = texto.replace(":*", "😚")
+    texto = texto.replace(":o", "😮​​")
+    print(texto)
